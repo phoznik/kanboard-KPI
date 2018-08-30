@@ -1,0 +1,31 @@
+.c3-chart-arcs-title{
+	font-size: 40px;
+	height: 60px;
+	fill: pink;
+	color: pink;
+}
+
+.c3-chart text{
+	font-size: 40px;
+	height: 60px;
+	fill: greenyellow;
+	color: greenyellow;
+}
+
+.c3-text{
+	font-size: 40px;
+	height: 60px;
+	fill: blue;
+	color: blue;
+}
+
+.c3-texts{
+	font-size: 40px;
+	height: 60px;
+	fill: purple;
+	color: purple;
+}
+
+.c3-ygrid-line.line10 line {
+	stroke: red;
+}
