@@ -16,4 +16,9 @@ class KPIHelper extends Base
 		$column = $this->columnModel->getById($column_id);
 		return (int) $this->db->table(self::TABLE)->eq('project_id', $column['project_id'])->eq('position', $column['position'] - 1)->findOneColumn('id');
 	}
+	
+	public function columnUpdate($column_id, $title, $week)
+	{
+		return true;
+	}
 }
